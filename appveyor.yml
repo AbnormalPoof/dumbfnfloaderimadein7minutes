@@ -57,5 +57,5 @@ build_script:
   - mv /home/appveyor/site/bin /home/appveyor/site/nightly
   - git add --all
   - git commit -m "kade update"
-  - git push
+  - git push -f
 deploy: off
