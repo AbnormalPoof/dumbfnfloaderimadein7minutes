@@ -11,7 +11,7 @@ environment:
   HAXE_INSTALLDIR: /home/appveyor/haxe
   SRC_REPO: https://github.com/KadeDev/Kade-Engine.git
   GITHUB_ACCESS_TOKEN:
-    secure: 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
+    secure: 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
 
 install:
   - cd /home/appveyor/site
@@ -47,7 +47,7 @@ install:
 build_script:
   - cd /home/appveyor/site
   - git config --global credential.helper store
-  - printf "https://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:x-oauth-basic@github.com\n" > $HOME/.git-credentials
+  - printf "https://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:x-oauth-basic@github.com\n" > $HOME/.git-credentials
   - git config --global user.email "userabnormal89@gmail.com"
   - git config --global user.name "AbnormalPoof"
   - cd /home/appveyor/src
