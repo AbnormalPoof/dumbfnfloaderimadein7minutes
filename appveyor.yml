@@ -11,7 +11,7 @@ environment:
   HAXE_INSTALLDIR: /home/appveyor/haxe
   SRC_REPO: https://github.com/KadeDev/Kade-Engine.git
   GITHUB_ACCESS_TOKEN:
-    secure: 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
+    secure: /iJkmlKYPjeG0o1YoGSpn+NANPJMrCZ6dic5w/12wRiInp+y22kAAXsPkEwBJzHS
 
 install:
   - cd /home/appveyor/site
