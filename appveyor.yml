@@ -11,7 +11,7 @@ environment:
   HAXE_INSTALLDIR: /home/appveyor/haxe
   SRC_REPO: https://github.com/KadeDev/Kade-Engine.git
   GITHUB_ACCESS_TOKEN:
-    secure: /iJkmlKYPjeG0o1YoGSpn+NANPJMrCZ6dic5w/12wRiInp+y22kAAXsPkEwBJzHS
+    secure: /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
 
 install:
   - cd /home/appveyor/site
@@ -48,8 +48,8 @@ build_script:
   - cd /home/appveyor/site
   - git config --global credential.helper store
   - printf "https://$GITHUB_ACCESS_TOKEN:x-oauth-basic@github.com\n" > $HOME/.git-credentials
-  - git config --global user.email "hi@puyo.xyz"
-  - git config --global user.name "puyoxyz"
+  - git config --global user.email "userabnormal89@gmail.com"
+  - git config --global user.name "AbnormalPoof"
   - cd /home/appveyor/src
   - haxelib run lime build html5
   - cd /home/appveyor/site
@@ -57,6 +57,6 @@ build_script:
   - cp -r /home/appveyor/src/export/release/html5/bin /home/appveyor/site/bin
   - mv /home/appveyor/site/bin /home/appveyor/site/nightly
   - git add --all
-  - git commit -m "nightly build through appveyor"
+  - git commit -m "kade update"
   - git push
 deploy: off
