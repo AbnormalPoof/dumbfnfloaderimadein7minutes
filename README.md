@@ -1,3 +1,62 @@
+menu for fnf, week 7 isnt provided and will instead redirect you to http://uploads.ungrounded.net/alternate/1528000/1528775_alternate_113347_r87.zip/ (
+the mirror for the newgrounds version). respect muffins wishes lol
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+popipo time
+
+
 Lets take, you're lovin' it! Vegetable Juice
 You must love this drink, I've decided now!
 So take now, with my true heart; Vegetable Juice.
