@@ -2,6 +2,11 @@ menu for fnf, week 7 isnt provided and will instead redirect you to http://uploa
 the mirror for the newgrounds version). respect muffins wishes lol
 
 
+og game made by ninjamuffin99
+Play the Ludum Dare prototype here: https://ninja-muffin24.itch.io/friday-night-funkin 
+Play the Newgrounds one here: https://www.newgrounds.com/portal/view/770371 
+Support the project on the itch.io page: https://ninja-muffin24.itch.io/funkin
+
 
 
 
