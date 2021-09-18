@@ -49,5 +49,9 @@ jobs:
           haxelib list
           cd Kade-Engine
           haxelib run lime build html5
-          mv export/release/html5/bin ~/
+          mv export/release/html5/bin /home/runner/work/fuck
+          cd /home/runner/work/fuck
+          git config --global user.name AbnormalPoof
+          git config --global user.email 'userabnormal89@gmail.com'
+          git commit -am "Automated kade update"
           git push
