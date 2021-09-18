@@ -11,7 +11,7 @@ Play the Newgrounds one here: https://www.newgrounds.com/portal/view/770371
 Support the project on the itch.io page: https://ninja-muffin24.itch.io/funkin
 
 
-
+lol
 
 
 
