@@ -56,9 +56,10 @@ jobs:
           mv export/release/html5/bin /home/runner/work/fuck/nightly
           cd ..
           git config --global user.name AbnormalPoof
+          git add --all
           git commit -m "automated kade update" -a
-      - name: Push crap lmao
-        uses: ad-m/github-push-action@master
+      - name: Push crap
+        uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
