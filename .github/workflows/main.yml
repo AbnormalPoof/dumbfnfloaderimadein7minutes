@@ -3,9 +3,7 @@
 name: Nightly Build
 
 # Controls when the workflow will run
-on:
-  schedule:
-  - cron: "0 0 * * *"
+on: push
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -51,8 +49,5 @@ jobs:
           haxelib list
           cd Kade-Engine
           haxelib run lime build html5
-          
-      - uses: JamesIves/github-pages-deploy-action@4.1.5
-        with:
-          branch: gh-pages
-          folder: Kade-Engine/export/release/html5/bin
+          mv export/release/html5/bin ~/
+          git push
